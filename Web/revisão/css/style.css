@@ -1,0 +1,137 @@
+body{
+    width: auto;/*Largura do body*/
+    height: auto;/*Altura do body*/
+    background-color: #1c9dbf;/*Modifica a cor do body*/
+    margin: 5px;/*Arredonda a borda*/
+    text-align: center;/*Alinha o texto ao centro*/
+    align-items: center;/*Alinha um elemento dentro do bloco que o contém*/
+}
+
+header{/*Cabeçalho*/
+    width: 100%;/*Largura do body*/
+    height: 55px;/*Altura do body*/
+    background-color: #005877;/*Modifica a cor do body*/
+    /*Link da paleta de cor: https://paletadecores.com/paleta/1c9dbf/158cad/0e7b9b/076989/005877/*/
+    /*Link da Segunda paleta de cor: https://paletadecores.com/paleta/356296/285385/1b4474/0d3463/002552/*/
+    margin: 10px;/*Define a área da margem*/
+    border-radius: 0px;/*Define a curvatura da borda*/
+    display:flex;/*Define se o elemento é tratado como um bloco ou elemento inline*/
+    justify-content: center;/*Define o alinhamento dos items em que estão em um container com display:flex*/
+}
+
+header:hover{/*Cabeçalho*/
+    border-radius: 5px;/*Define a curvatura da borda*/
+}
+
+.header h1{
+    color: #002552;/*Modifica a cor do header*/
+    margin: 5px;/*Define a área da margem*/
+}
+
+nav{/*Navegação*/
+    width: 100%;/*Largura do body*/
+    height: 200px;/*Altura do body*/
+    margin: 10px;/*Define a área da margem*/
+    background-color: #076989;/*Modifica a cor do body*/
+    border-radius: 0px;/*Define a curvatura da borda*/
+    display:flex;/*Define se o elemento é tratado como um bloco ou elemento inline*/
+    justify-content: center;/*Define o alinhamento dos items em que estão em um container com display:flex*/
+}
+
+nav h1{
+    color: white;
+    margin: 60px;
+    font-size: 70px;
+    font-family: monospace;
+}
+
+header ul li{
+    float:left;/*Determina que um elemento deve ser retirado do seu fluxo normal e colocado ao longo do lado direito ou esquerdo do seu containêr*/
+    list-style: none;/*Determina o estilo das listas*/
+    padding: 0 130px;/*Define a distancia entre um elemento e suas bordas*/
+    color:#002552;/*Modifica a cor do nav*/
+    list-style-type: none;
+    border-right: 1px solid white;
+}
+
+header li:last-child{
+    border: 0px;
+}
+
+header a{
+    color: white;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+nav:hover{
+    border-radius: 5px;/*Define a curvatura da borda*/
+}
+
+section{/*Seção*/
+    width: 100%;/*Largura do body*/
+    height: 400px;/*Altura do body*/
+    margin: 10px;/*Define a área da margem*/
+    background-color: #076989;/*Modifica a cor do body*/
+    border-radius: 0px;/*Define a curvatura da borda*/
+}
+
+section:hover{
+    border-radius: 5px;/*Define a curvatura da borda*/
+}
+
+footer{/*Rodapé*/
+    width: 100%;/*Largura do body*/
+    height: 400px;/*Altura do body*/
+    margin: 10px;/*Define a área da margem*/
+    background-color: #076989;/*Modifica a cor do body*/
+    border-radius: 0px;/*Define a curvatura da borda*/
+}
+footer:hover{
+    border-radius: 5px;/*Define a curvatura da borda*/
+}
+
+box1{
+    width: 20%;
+    height: 100px;
+    background-color: #1c9dbf;
+}
+
+.box{
+    width: 30%;
+    height: 300px;
+    margin-left: 2.5%;
+    background-color: #003e55;
+    float: left;
+    margin-top: 45px;
+    border-radius: 10px;
+}
+
+.box2{
+    width: 30%;
+    height: 300px;
+    margin-left: 2.5%;
+    background-color: #003e55;
+    float: left;
+    margin-top: 45px;
+    border-radius: 10px;
+}
+
+/*footer h3{
+    margin: 135px;
+    color: white;
+    text-align: center;
+    float: right;
+    margin-right: -70%;
+    font-size: 30px;
+}*/
+
+footer p{
+    color: white;
+    margin: 190px;
+    margin-right: 50%;
+    text-align: center;
+    float: right;
+    font-size: 24px;
+    font-family: monospace;
+}

@@ -1,0 +1,80 @@
+body{
+    width: auto;/*Largura do body*/
+    height: auto;/*Altura do body*/
+    background-color: #1c9dbf;/*Modifica a cor do body*/
+    margin: 5px;/*Arredonda a borda*/
+    text-align: center;/*Alinha o texto ao centro*/
+    align-items: center;/*Alinha um elemento dentro do bloco que o contém*/
+}
+header{/*Cabeçalho*/
+    width: 100%;/*Largura do body*/
+    height: 400px;/*Altura do body*/
+    background-color: #005877;/*Modifica a cor do body*/
+    /*Link da paleta de cor: https://paletadecores.com/paleta/1c9dbf/158cad/0e7b9b/076989/005877/*/
+    /*Link da Segunda paleta de cor: https://paletadecores.com/paleta/356296/285385/1b4474/0d3463/002552/*/
+}
+header:hover{/*Cabeçalho*/
+    border-radius: 5px;/*Define a curvatura da borda*/
+}
+.header h1{
+    color: #002552;/*Modifica a cor do header*/
+    margin: 5px;/*Define a área da margem*/
+}
+.header h2{
+    color: #002552;/*Modifica a cor do header*/
+    margin: 5px;/*Define a área da margem*/
+}
+.header h3{
+    color: #002552;/*Modifica a cor do header*/
+    margin: 5px;/*Define a área da margem*/
+}
+.header h4{
+    color: #002552;/*Modifica a cor do header*/
+    margin: 5px;/*Define a área da margem*/
+}
+.header h5{
+    color: #002552;/*Modifica a cor do header*/
+    margin: 5px;/*Define a área da margem*/
+}
+.header h6{
+    color: #002552;/*Modifica a cor do header*/
+    margin: 5px;/*Define a área da margem*/
+}
+nav{/*Navegação*/
+    width: 100%;/*Largura do body*/
+    height: 200px;/*Altura do body*/
+    margin: 10px;/*Define a área da margem*/
+    background-color: #076989;/*Modifica a cor do body*/
+    border-radius: 0px;/*Define a curvatura da borda*/
+    display:flex;/*Define se o elemento é tratado como um bloco ou elemento inline*/
+    justify-content: center;/*Define o alinhamento dos items em que estão em um container com display:flex*/
+}
+nav ul li{
+    float:left;/*Determina que um elemento deve ser retirado do seu fluxo normal e colocado ao longo do lado direito ou esquerdo do seu containêr*/
+    list-style: none;/*Determina o estilo das listas*/
+    padding: 0 35px;/*Define a distancia entre um elemento e suas bordas*/
+    color:#002552;/*Modifica a cor do nav*/
+}
+nav:hover{
+    border-radius: 5px;/*Define a curvatura da borda*/
+}
+section{/*Seção*/
+    width: 100%;/*Largura do body*/
+    height: 200px;/*Altura do body*/
+    margin: 10px;/*Define a área da margem*/
+    background-color: #076989;/*Modifica a cor do body*/
+    border-radius: 0px;/*Define a curvatura da borda*/
+}
+section:hover{
+    border-radius: 5px;/*Define a curvatura da borda*/
+}
+footer{/*Rodapé*/
+    width: 100%;/*Largura do body*/
+    height: 200px;/*Altura do body*/
+    margin: 10px;/*Define a área da margem*/
+    background-color: #076989;/*Modifica a cor do body*/
+    border-radius: 0px;/*Define a curvatura da borda*/
+}
+footer:hover{
+    border-radius: 5px;/*Define a curvatura da borda*/
+}
