@@ -57,7 +57,7 @@ section{
 }
 
 section .form{
-    background-color: black;
+    background-color: gray;
     width: 300px;
     height: 300px;
     margin: 50px auto;
