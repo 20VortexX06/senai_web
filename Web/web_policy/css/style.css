@@ -13,10 +13,10 @@ nav{
 
 nav ul{
     list-style: none;
-    margin: 60px;
-    margin-top: 50px;
+    margin: 0;
+    margin-top: -100px;
     float: left;
-    margin-left: 320px;
+    margin-left: 310px;
 }
 
 nav ul li{
@@ -32,6 +32,62 @@ nav ul li a{
 }
 
 .logo img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
+
+.user img{
+    width: 80px;
+    height: 80px;
+    float: right;
+    margin-top: -120px;
+    margin-right: 80px;
+}
+
+section .txt p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+    margin-top: -554px;
+    margin-left: 700px;
+    max-width: 1000px;
+}
+
+section img{
+    width: 550px;
+    height: 550px;
+    margin-top: 50px;
+    margin-left: 75px;
+    border-radius: 30px;
+}
+
+section .btn-vote{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(47, 47, 47);
+    float: left;
+    margin-left: 58.5%;
+    margin-top: -200px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+section .btn-vote a p{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+section .sub-txt-btn p{
+    color: white;
+    float: left;
+    margin-left: 55.2%;
+    margin-top: -120px;
+    font-size: 30px;
+}
+/*...................................2024-09-11...................................*/
+
+/*Falta add algumas fontes e o nome no final da página!*/
